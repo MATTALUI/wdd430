@@ -1,0 +1,43 @@
+:root {
+  --tyrion: #70163C;
+  --bean: #2E0F15;
+  --primary: var(--tyrion);
+  --accent: var(--bean);
+  --dark: #120309;
+  --light: #E0DDCF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--light);
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--primary);
+  color: var(--light);
+  font-size: 2rem;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 0.75rem 1rem;
+}

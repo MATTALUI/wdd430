@@ -1,0 +1,26 @@
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#todo-list {
+  width: fit-content;
+  padding-top: 3rem;
+}
+
+.todo {
+  display: flex;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 0.125rem;
+}
+
+.todo > span {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  margin-bottom: 0.135rem;
+}
